@@ -1,0 +1,53 @@
+@import url('header.css');
+@import url('header_menu.css');
+@import url('subject.css');
+@import url('messages.css');
+body main div {
+    margin: 10px;
+    border: solid 1px gray;
+    padding: 8px 16px;
+    background-color: beige;
+    width: 800px;
+}
+body main div h2 {
+    border-bottom: solid 1px gray;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.message{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid 1px gray;
+    background-color: #EEEEEE;
+}
+table {
+    margin-top: 10px;
+    border-collapse:collapse;
+}
+th, td {
+    padding: 5px;
+    border: solid 1px gray;
+    width: 100px;
+    text-align: center;
+}
+th:nth-child(1){
+    width: 160px;
+}
+td:nth-child(5){
+    width: 180px;
+}
+td form {
+    display: inline-block;
+}
+td form input{
+    margin: 0;
+}
+select {
+    margin: 0 3px;
+    padding: 2px 3px;
+}
+.submit {
+    margin: 10px;
+}

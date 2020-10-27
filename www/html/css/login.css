@@ -1,0 +1,33 @@
+@import url("header.css");
+@import url('messages.css');
+div{
+    margin: 0 auto;
+    margin-top:10px;
+}
+.container {
+    width: 400px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.exposition {
+    width: 800px;
+    padding-left: 300px;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+    background-color: deepskyblue;
+}
+h1, form, .container p {
+    text-align: center;
+    padding: 8px;
+}
+table {
+    margin-top: 10px;
+    border-collapse:collapse;
+    margin-left: 55px;
+}
+th, td {
+    padding: 5px;
+    border: solid 1px gray;
+}

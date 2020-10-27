@@ -1,0 +1,52 @@
+@import url('header.css');
+@import url('header_menu.css');
+@import url('subject.css');
+@import url('messages.css');
+h2, h3, p {
+    margin: 10px;
+}
+main button{
+    width: 32px;
+    height: 28px;
+}
+.container {
+    margin-left: 10px;
+    border: solid 1px gray;
+    background-color: beige;
+    width:960px;
+}
+.calendars {
+    display: flex;
+    margin: 10px;
+    width: 940px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: beige;
+}
+.calendar {
+    flex: 0 0 32%;
+    margin-bottom: 20px;
+}
+.sample_button {
+    pointer-events: none;
+}
+.businessday {
+    margin: 0;
+    background-color: white;
+    border-radius: 2px;
+    min-width: fit-content;
+}
+.businessday:hover{
+    background-color: gray;
+    border: solid 2px black;
+}
+.holiday {
+    margin: 0;
+    background-color: #AAFFFF;
+    border-radius: 2px;
+    min-width: fit-content;
+}
+.holiday:hover{
+    background-color: blue;
+    border: solid 2px black;
+}

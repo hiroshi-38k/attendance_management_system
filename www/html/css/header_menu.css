@@ -1,0 +1,47 @@
+header .common_menu button {
+    margin: 0;
+    background-color: skyblue;
+    width: 110px;
+}
+header .common_menu button:hover{
+    background-color: deepskyblue;
+    border: solid 2px black;
+}
+header .boss_menu button {
+    margin: 0;
+    background-color: #99FFCC;
+    width: 110px;
+}
+header .boss_menu button:hover{
+    background-color: #00CC99;
+    border: solid 2px black;
+}
+header .manager_menu button {
+    margin: 0;
+    background-color: #FFCC66;
+    width: 110px;
+}
+header .manager_menu button:hover{
+    background-color: #FF9900;
+    border: solid 2px black;
+}
+header nav {
+    border-bottom: solid 2px gray;
+    display: flex;
+    min-width: 1000px;
+}
+header ul {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+header ul li{
+    padding: 4px;
+    background-color: beige;
+    border: solid 2px black;
+}
+header button, header ul li {
+    font-size: 16px;
+}
