@@ -17,6 +17,7 @@ setcookie(session_name(), '', time() -42000,
  $params["httponly"]
 );
 // セッションに登録されたデータを全て破棄する
+session_destroy();
 // ログイン画面にリダイレクト
 redirect_to(LOGIN_URL);
 ?>
